@@ -1,0 +1,11 @@
+.auth{min-height:100vh;display:grid;place-items:center;background:linear-gradient(110deg,rgba(7,64,88,.88),rgba(8,127,120,.72)),url('/hospital-bg.jpg') center/cover}
+.login{width:min(420px,92%);background:#fff;border-radius:18px;padding:35px;box-shadow:0 25px 80px #001f2f55}
+.login .logo{display:grid;place-items:center;width:58px;height:58px;background:#087f78;color:#fff;border-radius:16px;font-weight:800;font-size:19px}
+.login p{margin:15px 0 4px;color:#087f78;font-weight:800}
+.register-panel{order:1}
+.admin-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.queue-panel{min-height:340px}
+.draft-panel{max-width:980px}
+.draft-count{display:grid;place-items:center;min-width:48px;height:48px;border-radius:14px;background:#e4f5ec;color:#087554;font-size:22px}
+.draft-row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 0;border-bottom:1px solid #e3eee8}
+.draft-row small{color:#6d837a}

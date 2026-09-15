@@ -1,0 +1,2 @@
+function debounce(fn,ms){let t;return(...a)=>{clearTimeout(t);t=setTimeout(()=>fn(...a),ms)}}
+function mask(el,type){if(!el)return;el.placeholder=type==='cnic'?'00000-0000000-0':'0300-0000000';el.maxLength=type==='cnic'?15:12;el.inputMode='numeric';el.oninput=()=>{let v=el.value.replace(/\D/g,'').slice(0,type==='cnic'?13:11);el.value=type==='cnic'?(v.length>12?v.slice(0,5)+'-'+v.slice(5,12)+'-'+v.slice(12):v.length>5?v.slice(0,5)+'-'+v.slice(5):v):(v.length>4?v.slice(0,4)+'-'+v.slice(4):v)}}

@@ -1,0 +1,22 @@
+button,input,select,textarea{font:inherit}
+input,select,textarea{width:100%;border:1px solid #d2e1e4;border-radius:8px;padding:11px;background:#fff;color:#183746}
+textarea{min-height:90px;resize:vertical}
+label{display:block;font-size:12px;font-weight:700;color:#5c747d}
+label input,label select,label textarea{margin-top:6px}
+.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
+.check input{width:auto;margin:0}
+.measuregrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.measure{display:grid;grid-template-columns:1.1fr 1fr .8fr;gap:8px;align-items:center;margin-bottom:7px}
+.measure input{padding:8px}
+.measure small{color:#83969c}
+.editor textarea.large{min-height:230px;line-height:1.6}
+.line{margin-top:8px}
+.filters input{max-width:155px}
+.performance{display:grid;grid-template-columns:1fr auto;gap:5px;padding:15px 0;border-bottom:1px solid #e5edef}
+.performance strong{font-size:24px;color:#087f78}
+.performance small{color:#80949a}
+.login form button{width:100%;margin-top:18px}
+.custom-table th{vertical-align:top}
+.cell-control,.line-control{display:flex;align-items:center;gap:5px}
+.cell-control input{min-width:110px}
+.custom-lines{display:grid;gap:7px;margin-top:10px}

@@ -1,0 +1,2 @@
+function companyCredit(){return `<div class="company-credit"><img src="/assets/meditech-logo.png" alt="MediTech" width="96" height="64"><span><small>Powered by</small><strong>MediTech</strong></span></div>`}
+function softwareInfo(){return `<section class="panel software-info"><div class="section-kicker">ABOUT THIS SOFTWARE</div><h3>Echo Management System</h3><p>Powered by MediTech for Afzal Heart Centre.</p>${companyCredit()}</section>`}

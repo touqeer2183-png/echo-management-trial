@@ -1,0 +1,2 @@
+async function performance(){let a=await api('analytics',{period:'today'});$('#content').innerHTML=periodControls('performance')+perfHtml(user.role==='doctor'?a.doctors:a.operators,user.role==='doctor'?'My Doctor Performance':'My Operator Performance')+`${user.role==='doctor'?operatorTable(a.operators):''}`;bindPeriod('performance')}
+async function operatorPerformance(){let a=await api('analytics',{period:'today'});$('#content').innerHTML=periodControls('operatorPerformance')+operatorTable(a.operators);bindPeriod('operatorPerformance')}

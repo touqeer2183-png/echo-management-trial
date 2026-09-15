@@ -1,0 +1,25 @@
+:root{font-family:Inter,Segoe UI,Arial,sans-serif;color:#183746;background:#eef5f7;font-size:14px}
+*{box-sizing:border-box}
+body{margin:0}
+button{border:0;border-radius:9px;padding:11px 16px;background:#087f78;color:#fff;font-weight:700;cursor:pointer}
+button:hover{filter:brightness(.95)}
+button.light{background:#e4f3ef;color:#126b65}
+button.ghost{background:#fff;color:#4b6670;border:1px solid #d8e5e8}
+.danger{background:#bd4b4b}
+h1,h2,h3,p{margin-top:0}
+.check{display:flex;align-items:center;gap:8px;background:#eef8f5;padding:12px;border-radius:9px}
+th{font-size:10px;text-transform:uppercase;letter-spacing:.7px;color:#748b92;background:#f6f9fa}
+td,th{padding:12px;border-bottom:1px solid #e8eff1}
+.token{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:10px;background:#087f78;color:#fff;font-size:18px}
+.filters{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+/* Final approved green workspace */
+body{color:#183c32;background:#eaf5ef}
+.welcome{padding:8px 0 22px}
+.welcome h1{font-size:31px;margin:8px 0}
+.registry-layout{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:start}
+.identity-first{background:#eaf7f1;padding:13px;border-radius:10px}
+.match-notice{background:#f2f9f5;color:#467163;padding:12px;border-radius:9px;margin:-4px 0 15px}
+.doctor-first{border-left:5px solid #09835c}
+.mini{padding:6px 9px;border-radius:6px}
+.mini.remove{background:#f7e7e7;color:#a33}
+.row-tools{white-space:nowrap}

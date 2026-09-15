@@ -1,0 +1,6 @@
+[build]
+  command = "python tools/build_netlify.py"
+  publish = "dist/netlify-trial"
+
+# Set ECHO_BACKEND_URL in Netlify to the separately hosted HTTPS Python backend.
+# Set ECHO_PUBLIC_ORIGIN on that backend to the exact Netlify browser origin.

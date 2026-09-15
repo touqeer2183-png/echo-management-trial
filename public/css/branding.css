@@ -1,0 +1,14 @@
+.company-credit{display:flex;align-items:center;justify-content:center;gap:2px;font-size:12px;line-height:1.5;color:#335b68}
+.company-credit img{display:block;width:96px;height:64px;object-fit:contain;flex-shrink:0}
+.company-credit span{display:flex;flex-direction:column;text-align:left}
+.company-credit small{font-size:10px;letter-spacing:.4px}
+.company-credit strong{font-size:15px;color:#075d79}
+.login>.company-credit{border-top:1px solid #e0ebe7;margin-top:24px;padding-top:10px}
+.app-company-footer{margin-top:28px;border-top:1px solid #c9dfd4;padding-top:8px}
+.software-info{margin-top:18px}
+.software-info>.company-credit{justify-content:flex-start}
+.software-info p{color:#56716c;font-size:13px}
+.print-company-credit{font-family:Arial,sans-serif;font-size:8px;font-weight:400;color:#333;letter-spacing:.1px}
+.report-page>.print-company-credit{border-top:1px solid #bbb;margin-top:8px;padding-top:4px;text-align:right;break-inside:avoid}
+.ticket-main footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:3px 10px}
+@media print{.print-company-credit{color:#000}}

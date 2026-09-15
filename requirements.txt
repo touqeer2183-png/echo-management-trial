@@ -1,0 +1,2 @@
+# Runtime: Python 3.11+ standard library only.
+# Optional browser verification: playwright and its Chromium browser.

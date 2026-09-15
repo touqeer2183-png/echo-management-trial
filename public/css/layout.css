@@ -1,0 +1,31 @@
+.shell{display:grid;grid-template-columns:245px 1fr;min-height:100vh}
+aside{background:#fff;border-right:1px solid #dce8ea;padding:25px 17px;display:flex;flex-direction:column}
+.brand{color:#087f78;font-size:15px;margin-bottom:17px}
+.brand span{display:inline-grid;place-items:center;background:#087f78;color:#fff;width:36px;height:36px;border-radius:11px;margin-right:8px}
+.brand small{display:block;color:#8aa0a6;font-size:9px;letter-spacing:1.2px;margin:8px 0 0 45px}
+.quick{display:grid;gap:8px;margin:8px 0 22px}
+.quick button:first-child{background:#087f78}
+.quick button:last-child{background:#e5f3ef;color:#126b65;border:1px solid #cce4de}
+nav button{display:block;width:100%;text-align:left;background:transparent;color:#667d85;margin-bottom:5px}
+nav button.active{background:#e5f3ef;color:#087f78}
+aside footer{margin-top:auto;color:#81959b;font-size:11px;line-height:1.8}
+main{padding:0 34px 40px;max-width:1600px;width:100%;margin:auto;background:linear-gradient(rgba(238,245,247,.82),rgba(238,245,247,.82)),url('/hospital-bg.jpg') center/cover fixed}
+header{height:85px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #d6e4e7;margin-bottom:26px}
+header small{color:#7c9299;font-size:10px;letter-spacing:1px}
+header h2{margin:5px 0 0}
+@media(max-width:900px){.shell{grid-template-columns:1fr}aside{display:block}.brand{display:inline-block}.quick{grid-template-columns:1fr 1fr}nav{display:flex;overflow:auto}nav button{width:auto;white-space:nowrap}aside footer{display:none}main{padding:0 15px 25px}.stats{grid-template-columns:repeat(2,1fr)}.two,.measuregrid{grid-template-columns:1fr}.formgrid{grid-template-columns:1fr}}
+.shell{grid-template-columns:250px 1fr}
+aside{background:linear-gradient(170deg,#064a35,#087554 72%,#075f46);color:#fff;border:0;box-shadow:10px 0 35px #123b2b24}
+.brand{color:#fff;font-size:16px}
+.brand span{background:#fff;color:#087554}
+.brand small{color:#cde9dd}
+.quick button:first-child,.quick button:last-child{background:#fff;color:#075a41;border:0}
+.quick button:hover{background:#eaf7f1}
+nav button{color:#d6eee3}
+nav button.active{background:#ffffff20;color:#fff}
+aside footer{color:#d1e9df;border-top:1px solid #ffffff2b;padding-top:16px}
+main{background:linear-gradient(rgba(238,249,243,.88),rgba(246,252,248,.9)),url('/hospital-bg.jpg') center/cover fixed}
+header{border-color:#c9dfd4}
+.account{display:flex;align-items:center;gap:12px}
+.account span{font-weight:800;color:#176249}
+@media(max-width:900px){.shell{grid-template-columns:minmax(0,1fr)}.shell>main,.shell>aside{min-width:0}.registry-layout,.admin-grid{grid-template-columns:1fr}.account span{display:none}}
